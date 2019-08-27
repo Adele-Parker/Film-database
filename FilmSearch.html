@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Looking for a film</title>
+</head>
+<body>
+
+<br>
+
+<fieldset>
+<legend>Get All Films</legend>
+<form action="getAllFilms" method="post">
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+<input type = "submit" value = "Submit">
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by ID</legend>
+<form action="getFilmById" method="post">
+<table>
+<tr>
+<th>
+ID: <br>
+<input type = "text" name = "id"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by Title</legend>
+<form action="getFilmByTitle" method="post">
+<table>
+<tr>
+<th>
+Title: <br>
+<input type = "text" name = "title"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by Year</legend>
+<form action="getFilmByYear" method="post">
+<table>
+<tr>
+<th>
+Year: <br>
+<input type = "text" name = "year"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by Director</legend>
+<form action="getFilmByDirector" method="post">
+<table>
+<tr>
+<th>
+Director: <br>
+<input type = "text" name = "director"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by Stars</legend>
+<form action="getFilmByStars" method="post">
+<table>
+<tr>
+<th>
+Star/s: <br>
+<input type = "text" name = "stars"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Search by Review</legend>
+<form action="getFilmByReview" method="post">
+<table>
+<tr>
+<th>
+Review: <br>
+<input type = "text" name = "review"><br>
+<input type = "submit" value = "Submit">
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+</form>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src = "scripts/jquery.js"></script>
+<script src = "scripts/getFilmBy.js"></script>
+<title>JQuery</title>
+<script>
+
+</script>
+</head>
+<body>
+
+<h1>jQuery</h1>
+
+<fieldset>
+<legend>get all films</legend>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+<button id="getAllFilms">get Films</button>
+<div id = "getAll"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by id</legend>
+<table>
+<tr>
+<th>
+ID: <br>
+<input id="filmId" type = "text" name = "id"><br>
+<button id="getFilmsById">get films by id</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getById"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by title</legend>
+<table>
+<tr>
+<th>
+Title: <br>
+<input id="filmTitle" type = "text" name = "title"><br>
+<button id="getFilmsByTitle">get films by title</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getByTitle"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by year</legend>
+<table>
+<tr>
+<th>
+Year: <br>
+<input id="filmYear" type = "text" name = "year"><br>
+<button id="getFilmsByYear">get films by year</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getByYear"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by director</legend>
+<table>
+<tr>
+<th>
+Director: <br>
+<input id="filmDirector" type = "text" name = "director"><br>
+<button id="getFilmsByDirector">get films by director</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getByDirector"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by stars</legend>
+<table>
+<tr>
+<th>
+Stars: <br>
+<input id="filmStars" type = "text" name = "stars"><br>
+<button id="getFilmsByStars">get films by stars</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getByStars"></div>
+</fieldset>
+
+<fieldset>
+<legend>get films by review</legend>
+<table>
+<tr>
+<th>
+Review: <br>
+<input id="filmReview" type = "text" name = "review"><br>
+<button id="getFilmsByReview">get films by review</button>
+</th>
+<th>
+<input type = "radio" name = "format" value = "xml">XML<br>
+<input type = "radio" name = "format" value = "json">JSON<br>
+<input type = "radio" name = "format" value = "text">TEXT<br>
+</th>
+</table>
+<div id = "getByReview"></div>
+</fieldset>
+
+
+</body>
+</html>
